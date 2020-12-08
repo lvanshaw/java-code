@@ -1,0 +1,63 @@
+ Reference Types
+In Java, a string class is considered a reference type.
+
+ 
+
+Write a Java program to cipher and decipher a message. Cipher is a system of writing that prevents unintended targets (users) from understanding a message.
+
+ 
+
+Create a class "CipherDecipher" and write two methods public String ciphering(String normal) (logic for ciphering), and public String deciphering(String ciphered) (logic for deciphering). 
+
+ 
+
+To cipher a message:
+
+ 
+
+Swap the case of the string- UpperCase to LowerCase letters, and vice-versa.
+Reverse the string using StringBuilder.
+Replace the spacing between characters in the string with * (star).
+Replace the characters in even positions with their corresponding ASCII value.
+Append any integer to the string.
+ 
+
+The final string is the ciphered message.
+
+ 
+
+To decipher the message, do the above steps in reverse order.
+
+ 
+
+Input:
+
+ 
+
+The first line contains the string to cipher.
+The second line contains the string to cipher.
+ 
+
+Output:
+
+ 
+
+The first line contains the ciphered text of the first input.
+The second line contains the ciphered text of the second input.
+ 
+
+Note: Before ciphering, ensure that the text does not contain numbers.
+
+ 
+
+Sample Input:
+
+Welcome to hackerrank
+?85O89*69R65*87O104*33I1043
+ 
+Sample Output:
+
+ 
+
+K78A82R69K67A72*79T42E77O67L69w3
+Hi! How are you?
